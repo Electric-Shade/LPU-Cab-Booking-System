@@ -4,7 +4,7 @@ import mysql.connector
 objectDB = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="Veracita@19!",
+    password="password",
     database="CBS"
 )
 instance = objectDB.cursor(buffered=True)
